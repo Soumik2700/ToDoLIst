@@ -1,0 +1,46 @@
+### Testing Guidance:
+
+1. **Add Task:**
+   - Open the application.
+   - Use the input field to add tasks.
+   - Verify that the task is added to the list.
+
+2. **Remove Task:**
+   - Add some tasks to the list.
+   - Click on the "Remove" button next to a task.
+   - Verify that the task is removed from the list.
+
+3. **Complete Task:**
+   - Add some tasks to the list.
+   - Click on a task to mark it as completed.
+   - Verify that the task appearance changes to indicate completion.
+
+4. **Input Validation:**
+   - Try adding a task with an empty input field.
+   - Try adding a task with only whitespace characters.
+   - Verify that the application does not allow adding invalid tasks.
+
+5. **Dynamic Display:**
+   - Add multiple tasks to the list.
+   - Verify that all tasks are displayed dynamically without manual page refresh.
+
+6. **Sorting (Optional):**
+   - If sorting functionality is implemented, test it by adding tasks in random order and then sorting them.
+   - Verify that tasks are sorted correctly, either alphabetically or by completion status.
+
+7. **Filtering (Optional):**
+   - If filtering functionality is implemented, test it by adding both completed and incomplete tasks.
+   - Verify that you can filter tasks to view only completed or only incomplete tasks.
+
+8. **Local Storage Integration:**
+   - Add some tasks to the list.
+   - Refresh the page or close and reopen the browser.
+   - Verify that the tasks persist after the page reload due to local storage integration.
+
+9. **Cross-browser Compatibility:**
+   - Test the application in different web browsers (Chrome, Firefox, Safari, Edge, etc.).
+   - Verify that all features work as expected in each browser.
+
+10. **Responsive Design:**
+    - Test the application on different devices (desktop, tablet, mobile).
+    - Verify that the layout and functionality adapt appropriately to different screen sizes.
